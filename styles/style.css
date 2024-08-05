@@ -138,7 +138,5 @@ body {
   align-items: center;
   justify-content: center;
   padding: 30px;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(10% #C0CCDA, 60% #C0CCDA) 1;
+  border: 2px solid gray;
 }
