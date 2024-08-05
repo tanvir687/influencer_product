@@ -1,0 +1,144 @@
+/* poppins text style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* inter text style */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* manrope text style */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+/* poppins text style */
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* inter text style  */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* manrope text style  */
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* sheared styles */
+.display-flex {
+  display: flex;
+}
+
+/* header styles */
+/* nav styles start  */
+.main-width {
+  width: 1068px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.nav-box {
+  display: flex;
+  gap: 30px;
+}
+.nav-box li {
+  list-style: none;
+}
+.nav-box li a {
+  color: #3a3a3a;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.9rem;
+}
+.nav-title {
+  font-size: 1.35rem;
+}
+/* header styles start  */
+.influencer {
+  justify-content: space-between;
+}
+.influencer-container {
+  max-width: 517px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.influencer-title {
+  margin: 0px;
+  font-size: 2.89rem;
+  color: #3a3a3a;
+}
+.influencer-description {
+  font-size: 0.86rem;
+  color: #3a3a3a;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #e02c6d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 36px;
+  font-size: 0.89rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.influencer-img {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+}
+.bg-image {
+  height: 423px;
+  width: 423px;
+  margin-top: 44px;
+}
+.camera-image {
+  height: 390px;
+  width: 390px;
+  margin-top: -400px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+/* sponsor companies styles start  */
+.sponsore {
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 60px 0px;
+}
+.sponsore-item {
+  gap: 53px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(10% #C0CCDA, 60% #C0CCDA) 1;
+}
