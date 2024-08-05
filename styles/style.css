@@ -213,6 +213,8 @@ body {
 .featured-product {
   width: 990px;
   margin: 0 auto;
+  margin-bottom: 90px;
+  margin-top: 90px;
 }
 .featured-product-item{
   gap: 85px;
@@ -269,10 +271,92 @@ footer{
 }
 /* small device responsive */
 @media screen and (max-width:576px) {
-  .nav-container{
-    display: flex;
-    flex-direction: column;
-    width: 576px;
+  /* navigation part  */
+  body{
+    max-width: 360px;
   }
+  .nav-container{
+    width: 100%;
+  }
+  .nav-item{
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-box li{
+    display: none;
+  }
+  .nav-title{
+    margin: 25px 0px 5px 0px;
+  }
+  /* influencer part  */
+  .influencer{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+  .influencer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+ .influencer-img img{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.influencer-title{
+  font-size: 2.6rem;
+}
+ /* sponsore part  */
+.sponsore{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+.sponsore-item{
+  width: 100%;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+/* collection part  */
+.collection{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.collection-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.collection-title{
+  margin: 100px 0px 0px 0px ;
+}
+.collection, .btn-link{
+  align-items: flex-end;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+/* featured product part   */
+
+
+
+
 }
 
