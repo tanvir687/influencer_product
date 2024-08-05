@@ -267,5 +267,12 @@ footer{
   margin: 10px 0px 0px 0px;
   font-size: 30px;
 }
-
+/* small device responsive */
+@media screen and (max-width:576px) {
+  .nav-container{
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+  }
+}
 
